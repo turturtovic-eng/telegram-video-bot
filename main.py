@@ -4,8 +4,8 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils import executor
 
-TOKEN = os.getenv("8739124536:AAFDPZeXarTU-7FA3rMn6Uc8r9Bp4br6XhA")
-ADMIN_ID = int(os.getenv("1094016256"))
+TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
